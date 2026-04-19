@@ -15,17 +15,39 @@ align-items:center;
 
 .container{
 background:white;
-width:420px;
 padding:30px;
-border-radius:12px;
+border-radius:16px;
+width:420px;
 box-shadow:0px 10px 30px rgba(0,0,0,0.4);
 }
 
 header{
-font-size:24px;
-font-weight:bold;
 text-align:center;
 margin-bottom:25px;
+}
+
+.icone{
+width:50px;
+height:50px;
+background:#1e3a8a;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+margin:auto;
+font-size:22px;
+margin-bottom:10px;
+}
+
+header h1{
+font-size:22px;
+margin-bottom:4px;
+}
+
+header p{
+font-size:13px;
+color:#666;
 }
 
 ul{
@@ -39,6 +61,7 @@ margin-bottom:18px;
 h5{
 font-size:13px;
 margin-bottom:6px;
+color:#444;
 }
 
 input{
@@ -72,9 +95,21 @@ button:hover{
 background:#0f172a;
 }
 
+hr{
+margin:20px 0;
+border:none;
+border-top:1px solid #ddd;
+}
+
+.resultados{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+}
+
 footer{
 text-align:center;
 margin-top:20px;
 font-size:12px;
-color:#666;
+color:#777;
 }
